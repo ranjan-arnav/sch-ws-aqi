@@ -1,0 +1,33 @@
+
+
+Circuit Diagram:
+DHT22 Sensor:
+
+VCC to 5V
+GND to GND
+Data to Digital Pin 2
+BMP280 Sensor:
+
+VCC to 3.3V (or 5V, check sensor specifications)
+GND to GND
+SCL to A5 (SCL)
+SDA to A4 (SDA)
+MQ-135 Sensor:
+
+VCC to 5V
+GND to GND
+AOUT to A0
+LCD Display (with I2C):
+
+VCC to 5V
+GND to GND
+SDA to A4 (SDA)
+SCL to A5 (SCL)
+SD Card Module (Optional):
+
+VCC to 5V
+GND to GND
+CS to Pin 10
+MOSI to Pin 11
+MISO to Pin 12
+SCK to Pin 13
